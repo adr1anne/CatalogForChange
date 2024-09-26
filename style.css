@@ -1,0 +1,396 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin-left: auto;
+   margin-right: auto;
+  text-align: center;
+}
+
+body {
+ background-color: #f2d4ec; 
+    font-family: 'Noto Serif', serif;
+  margin-left: 3%;
+margin-right: 3%;
+}
+
+footer {
+  padding: 3%;
+  
+}
+
+nav {
+margin-left: 0;
+margin-right: 0;
+  background-color: #d2a7d2;
+  font-size: 24px;
+  font-family: 'Secular One', sans-serif;
+  border-radius: 40px;
+
+}
+/* STYLE TEXT */
+
+img {
+  padding: 3%;
+  width: 70%;
+  height:70%
+}
+
+header {
+  color: darkred;
+  background-color: #F0E7D8;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 70%;
+  border-radius: 20px;
+  font-size:30px;
+  font-family: 'Archivo Black', sans-serif;
+
+  
+}
+
+h3 {
+  border-radius: 25px;
+  padding: 3px;
+  margin-top: 2px;
+  background-color: #A63A50;
+  height: 35px;
+  width: 500px;
+  text-align:center;
+  color: white;
+}
+
+h2 {
+  margin-top: 70px;
+    text-decoration:underline;
+  font-family: 'Archivo Black', sans-serif;
+}
+
+h4 {
+  border-radius: 25px;
+  padding: 3px;
+  background-color: #dfb3bc;
+  width:380px;
+  text-align:center;
+  color: black;
+  font-family: 'Noto Serif', serif;
+
+}
+
+p {
+  font-size: 15px;
+  
+}
+
+
+#illegal {
+ color: #590A0F;
+  text-align: left;
+    font-size: 12.5px;
+
+}
+ #hostile {
+ color: #BF0B08;
+     text-align: left;
+     font-size: 12.5px;
+ }	 
+
+ #notProtected {
+   color: #E79233;
+     font-size: 12.5px;
+   text-align: left;
+  
+}	 
+
+#protected {
+  background-color: #6EDD8F;
+  color: black;
+    font-size: 12.5px;
+  text-align: left;
+}
+
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+
+ul {
+  list-style-type: none;
+  overflow:hidden;
+  padding: 0.1em;
+  text-decoration:none;
+}
+
+.navbar {
+  display: inline;
+  margin-left: 0;
+margin-right: 0;
+
+}
+
+
+li a {
+   color: darkred;
+    margin-left: 20px;
+  margin-right: 20px;
+    text-decoration:none;
+
+}
+
+li a:hover {
+  background-color:white;
+}
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! list-style-type: none;*/
+
+#key{
+  overflow:hidden;
+  text-align: left;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 2px;
+  display: block;
+  background-color:#F0E7D8 ;
+}
+
+#fund{
+  display: block;
+}
+
+#books {
+  background-color: #f1e5e5;
+  width: 80%;
+}
+
+#pills {
+  background-color: #ebe4f1;
+  width: 60%;
+  padding: 1em;
+ font-family: 'Secular One', sans-serif;
+  text-align:left;
+
+}
+
+#mySource {
+  font-size: 7px;
+  padding-bottom: 2em;
+  float:left;
+  background-color:white;
+  padding:1em;
+
+}
+
+#map_canvas {
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+#findSupport {
+  margin-bottom: 3em;
+}
+
+
+.source {
+  margin: 0em;
+font-size: 10px;
+}
+
+.tag {
+  background-color: #f7dede;
+   font-family: 'Secular One', sans-serif;
+}
+
+.sub {
+  font-size: 15px;
+   font-family: 'Noto Serif', serif;
+  margin-top: 0em;
+    text-decoration:none;
+}
+
+.yes {
+  background-color: #d2a7d0;
+ font-family: 'Secular One', sans-serif;
+  font-size: 16px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.special {
+  font-weight: 900%;
+}
+
+
+#section1 {
+  background-color: #f0e7d9;
+  padding: 2%;
+  margin-left: none;
+  margin-right: none;
+}
+
+
+#section2 {
+  margin-top: 5%;
+  background-color: #fdf9f2;
+  padding: 2%;
+  margin-left: none;
+  margin-right: none;
+}
+
+.learnmore {
+  font-family: 'Secular One', sans-serif;
+  background-color: #f0e7d9;
+  
+}
+
+
+
+#firstleft {
+  padding: 1%;
+  width: 23%;
+float: right;
+ font-family: 'Secular One', sans-serif;
+
+}
+
+#firstright {
+  padding: 1%;
+  width: 85%;
+  display: inline-block;
+  font-size: 13px;
+    border-radius: 30px;
+   background-color: lightblue;
+  font-family: 'Noto Serif', serif;
+}
+
+.title {
+  text-decoration:underline;
+  color: #350303;
+ font-family: 'Secular One', sans-serif;
+}
+
+
+#left {
+  float:left;
+  background-color: #81dfdb;
+  padding: 1%;
+  font-size: 13px;
+    display: inline-block;
+  width: 400px;
+}
+
+#right {
+  float:right;
+  background-color: #81dfdb;
+  padding: 1%;
+  font-size: 13px;
+    display: inline-block;
+  width:400px
+}
+
+#center {
+ margin-left: auto;
+  margin-right: auto;
+    display: inline-block;
+}
+
+#terms {
+   font-family: 'Secular One', sans-serif;
+  text-align: center;
+  padding: 2%;
+  margin-top: 3%;
+  width: 40%;
+line-height: 0px;
+}
+
+#fund {
+  background-color: #cbe2cb;
+  padding: 1%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 100%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: lightpink;
+}
+
+/* Caption text */
+.text {
+  color: white;
+  font-size: 15px;
+  padding: 3px 2px;
+  position: static;
+  width: 40%;
+  background-color: #331519;
+  text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
